@@ -23,6 +23,10 @@ Easy to use wrapper for common and basic SQL database functions
 
 ---
 ## Code Usage
+* Include namespace
+```csharp
+using Kimerran.EasySql;
+```
 
 * Creating a database object
 ```csharp
