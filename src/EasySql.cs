@@ -25,6 +25,7 @@
 //#define MYSQL
 //#define SQLLITE
 //#define ORACLE
+//#define POSTGRESQL
 #endregion
 
 using System;
@@ -46,6 +47,9 @@ using System.Data.MySql;
 #endif
 #if SQLITE
 using System.Data.SQLite;
+#endif
+#if POSTGRESQL
+using Npgsql;
 #endif
 #endregion
 
