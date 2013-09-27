@@ -3,8 +3,26 @@ easysql
 
 Easy to use wrapper for common and basic SQL database functions
 
+---
+## How-to use in your project
 
-Usage:
+- Copy/Add EasySql.cs to your project
+- Locate the following line and un-comment the database you will use
+
+```csharp
+#region Select your DB type
+#define SQLSERVER
+//#define MSACCESS
+//#define MYSQL
+//#define SQLLITE
+//#define ORACLE
+#endregion
+```
+
+- Use as described in the code below
+
+---
+## Code Usage
 
 * Creating a database object
 ```csharp
