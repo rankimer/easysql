@@ -173,11 +173,11 @@ namespace Kimerran.EasySql
         }
 
         /// <summary>
-        /// 
+        /// Runs a stored procedure and returns a DataTable containing the results
         /// </summary>
         /// <param name="storedProcedureName"></param>
         [System.Obsolete("Feature not yet implemented")]
-        public DataTable? ExecuteStoredProcedure(string storedProcedureName)
+        public DataTable ExecuteStoredProcedure(string storedProcedureName)
         {
             //return null;
             throw new Exception("Feature not yet implemented");
